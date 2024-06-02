@@ -1,8 +1,15 @@
-export function add(a: number, b: number): number {
-  return a + b;
-}
+// deno-lint-ignore-file
+// deno-lint-ignore-file no-unused-vars
+// deno-lint-ignore-file
+// deno-lint-ignore-file no-unused-vars
+export type HandSign = Rock | Paper | Scissors;
+type Rock = "pierre";
+type Paper = "papier";
+type Scissors = "ciseaux";
+// deno-lint-ignore no-unused-vars
 
-// Learn more at https://deno.land/manual/examples/module_metadata#concepts
-if (import.meta.main) {
-  console.log("Add 2 + 3 =", add(2, 3));
+
+// deno-lint-ignore no-unused-vars
+export function winner(_player1: HandSign, _player2: HandSign): HandSign {
+  return "ciseaux"
 }
