@@ -3,6 +3,8 @@
   "packages": {
     "specifiers": {
       "jsr:@std/assert": "jsr:@std/assert@0.225.3",
+      "jsr:@std/assert@^0.225.3": "jsr:@std/assert@0.225.3",
+      "jsr:@std/expect@^0.224.3": "jsr:@std/expect@0.224.3",
       "jsr:@std/internal@^1.0.0": "jsr:@std/internal@1.0.0"
     },
     "jsr": {
@@ -12,10 +14,22 @@
           "jsr:@std/internal@^1.0.0"
         ]
       },
+      "@std/expect@0.224.3": {
+        "integrity": "eacd71aaa426472bf04ddde7e0765b0b360d3ffa33ad2ca05a96fd7052caea41",
+        "dependencies": [
+          "jsr:@std/assert@^0.225.3",
+          "jsr:@std/internal@^1.0.0"
+        ]
+      },
       "@std/internal@1.0.0": {
         "integrity": "ac6a6dfebf838582c4b4f61a6907374e27e05bedb6ce276e0f1608fe84e7cd9a"
       }
     }
   },
-  "remote": {}
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/expect@^0.224.3"
+    ]
+  }
 }
