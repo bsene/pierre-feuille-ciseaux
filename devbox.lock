@@ -1,0 +1,53 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "gambit@latest": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#gambit",
+      "source": "devbox-search",
+      "version": "4.9.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qv2s619ml89p2q0kfdav0qwcd6bhjafx-gambit-4.9.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qv2s619ml89p2q0kfdav0qwcd6bhjafx-gambit-4.9.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/68gmimnv39rhyfxk1h5yh7a3cx0f8s7y-gambit-4.9.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/68gmimnv39rhyfxk1h5yh7a3cx0f8s7y-gambit-4.9.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fkbwfyvhhr9lz4q3c41xngv89jhxqfbj-gambit-4.9.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fkbwfyvhhr9lz4q3c41xngv89jhxqfbj-gambit-4.9.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2aairla9ln2zmxn81yn4ba87mlrdzf7a-gambit-4.9.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2aairla9ln2zmxn81yn4ba87mlrdzf7a-gambit-4.9.5"
+        }
+      }
+    }
+  }
+}
