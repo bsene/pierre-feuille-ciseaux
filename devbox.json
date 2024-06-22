@@ -3,11 +3,12 @@
   "packages": ["gambit@latest"],
   "shell": {
     "init_hook": [
-      "unalias gsi"
+      "if whence -w gsi | grep alias;then unalias gsi;fi"
     ],
     "scripts": {
       "test": [
-        "echo \"Error: no test specified\" && exit 1"
+        "clear",
+        "gsi pierre_feuille_ciseaux_test.scm"
       ]
     }
   }
